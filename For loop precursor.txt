@@ -1,0 +1,115 @@
+Coding Lessons - For loop precursor
+
+Precursor to a for loop.
+Let us say we want to print out the following rows of numbers:
+
+1 
+2 
+3 
+4 
+5 
+
+We can do this manually using the stand printing function.
+Now let us try automate this process by restricting the number of rows we want to print 
+with an if statement. So in this case we want to print only 5 rows of numbers.
+
+So let us create a variable called `start = 1` and `end = 5`. Now we want to be able to create
+a counter that will add `1` to the start number each time until we get to `5`. So we create
+a variable count `counter`. So for example, let us first print out the row numbers:
+
+`start = 1`
+`end = 5`
+`counter = start`
+
+print(counter)
+counter = counter + 1
+print(counter)
+counter = counter + 1
+print(counter)
+counter = counter + 1
+print(counter)
+counter = counter + 1
+print(counter)
+counter = counter + 1
+print(counter)
+
+This should show:
+1
+2
+3
+4
+5
+6
+
+Which shows 1 more number than we actually want. We can just delete the last two lines but
+let us add some restrictions to the code. Now let us add an if condition that checks if we reached the correct
+number of rows we want to print:  
+
+`start = 1`
+`end = 5`
+`counter = start`
+
+if (counter <= 5)
+{
+	print(counter)
+	# 1
+	counter = counter + 1
+}
+else
+{
+	print("limit reached")
+}
+
+if (counter <= 5)
+{
+	print(counter)
+	# 2
+	counter = counter + 1
+}
+else
+{
+	print("limit reached")
+}
+if (counter <= 5)
+{
+	print(counter)
+	# 3
+	counter = counter + 1
+}
+else
+{
+	print("limit reached")
+}
+if (counter <= 5)
+{
+	print(counter)
+	# 4
+	counter = counter + 1
+}
+else
+{
+	print("limit reached")
+}
+if (counter <= 5)
+{
+	print(counter)
+	# 5
+	counter = counter + 1
+}
+else
+{
+	print("limit reached")
+}
+if (counter <= 5)
+{
+	print(counter)
+	# 6
+	counter = counter + 1
+}
+else
+{
+	print("limit reached")
+}
+
+So  you see now only 5 rows of numbers were printed and the last statement said limit was reached!
+

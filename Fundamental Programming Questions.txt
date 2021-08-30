@@ -1,0 +1,89 @@
+Fundamental Programming Questions:
+
+Homework:
+ 
+Lesson on printing, variables and printing variables completed.
+1. Write a program that prints out:
+Hello World!!!
+
+2. Print out the following
+*
+* *
+* * *
+* * * *
+* * * * *
+
+3. Print out the following
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+4. Print out the following:
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+
+5. Print out the following
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+
+6. Write a program that stores this year as a variable and prints it out like this:
+"Hello, this year is: 2021"
+
+7. Write a program that stores your age as a variable and prints it out like this:
+"Hello, my age is: 30"
+
+
+BASICS LEVEL 2:
+Lesson on mathematical operators and user input completed.
+1. Write a program that adds two numbers together and prints that result.
+Example Output: 
+"5 + 5 = 10"
+Extra exercise: ask for a user to input two numbers instead.
+
+2. Write a program that subtracts two numbers together and prints that result.
+Example Output: 
+"30 - 10 = 20"
+Extra exercise: ask for a user to input two numbers instead.
+
+3. Write a program that multiplies two numbers together and prints that result.
+Example Output: 
+"3 * 2 = 6"
+Extra exercise: ask for a user to input two numbers instead.
+
+4. Write a program that finds the modulus of two numbers and prints the result. Note, modulus is the remainder of two numbers if they are divided.
+Example Output: 
+"4 % 2 = 0 "
+Extra exercise: ask for a user to input two numbers instead.
+
+5. Write a program that divides two numbers together and prints that result. This result is also known as the quotient. You must also show the remainder of the two numbers. Hint, look at the previous question.
+Example Output: 
+"9 / 3 = 3"
+"9 % 3 = 0"
+Extra exercise: ask for a user to input two numbers instead.
+ 
+6. Write a program that uses two variables:
+a = 5 and b = 10
+Swop the values of these variables around
+so a = 10 and b = 5
+Make sure you print out each step.
+
+THE CONDITIONAL STATEMENT
+Lesson on conditional statement and logical operators completed.
+1. Write a program that checks if two numbers are the same by using an if statement. If they are the same print "True, the numbers
+are the same". If they are not the same print "False, the numbers are not the same" 
+
+2. Write a program that checks if a number is positive or negative.
+
+3. Write a program that checks if a number is larger than 100.
+
+4. Write a program that checks if a number is larger than 100 but less than 500. 
+
+5. Write a program that checks if a number is even or odd. Hint, you will need to use the modulus operator.

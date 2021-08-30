@@ -1,0 +1,86 @@
+For loop lesson:
+
+A for loop is a built in statement that repeats a piece of code a certain number of times.
+For example, if you write print out a square of stars you can do it like this:
+print("*****")
+print("*****")
+print("*****")
+print("*****")
+print("*****")
+
+Output:
+
+*****
+*****
+*****
+*****
+*****
+
+But this is a bit of a long process to keep on having to print the same thing over again.
+The rule of programming is if you have to write the same line of code twice then you 
+need to automate it. And we can automate it with a for loop. So we will get the same result with:
+for(int i = 1; i <= 5; i = i+1)
+{
+	print("*****")
+}
+
+Now let us go into detail with a for loop. So a for loop has 3 parameters you need to define:
+1. where does the loop start from (start)
+2. where does the loop end using a condition (end)
+3. how does the loop count or iterate (count)
+for (start; end; count)
+
+So I am going to rewrite the for loop above but give it more descriptive variable names to help teach
+the concept:
+
+int start = 1;
+int end = 5;
+
+for(int count = start; count <= end; count = count + 1)
+{
+	print("*****")
+}
+print("for loop is done")
+
+Ok so what is happening in memory:
+Mem: start = 1
+Mem: end = 5
+
+1. firstly, count = start so:
+Mem: count = 1
+2. Then the for loop begins its first loop by first checking if the condition is true, else it will exit:
+if (count <= end)
+{
+	print("*****")
+	count = count + 1
+}
+Mem: count = 2
+3. Second loop, checks if the condition is true else it will exit the for loop:
+if (count <= end)
+{
+	print("*****")
+	count = count + 1
+}
+Mem: count = 3
+4. Third loop, checks if the condition is true else it will exit the for loop:
+if (count <= end)
+{
+	print("*****")
+	count = count + 1
+}
+Mem: count = 4
+5. Fourth loop, checks if the condition is true else it will exit the for loop:
+if (count <= end)
+{
+	print("*****")
+	count = count + 1
+}
+Mem: count = 5
+6. Fifth loop, checks if the condition is true else it will exit the for loop:
+if (count <= end)
+{
+	print("*****")
+	count = count + 1
+}
+Mem: count = 6
+7. Sixth loop, checks if the condition is true. Which it is not as count < end is false as 6 > 5. So it will exit the for loop and do the statement: `print("for loop is done")`

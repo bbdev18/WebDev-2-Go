@@ -1,0 +1,3 @@
+Coding Tips:
+1. Make a comment after each line regarding what the code is doing
+2. Comment on what the variables are in memory and how they change
